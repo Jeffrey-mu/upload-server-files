@@ -43,7 +43,7 @@ declare module 'scp2' {
   ): void
 
   function scp(
-    files: FileSpec[],
+    file: string,
     opts: Options,
     cb: (err?: Error) => void
   ): void
