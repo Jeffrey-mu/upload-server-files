@@ -1,17 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "upload-server-files",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.2.1",
   "description": "",
   "author": "Jeffrey-mu <1115378579@qq.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Jeffrey-mu/pkg-name#readme",
+  "homepage": "https://github.com/Jeffrey-mu/upload-server-files#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jeffrey-mu/pkg-name.git"
+    "url": "git+https://github.com/Jeffrey-mu/upload-server-files.git"
   },
-  "bugs": "https://github.com/Jeffrey-mu/pkg-name/issues",
+  "bugs": "https://github.com/Jeffrey-mu/upload-server-files/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -44,6 +44,11 @@
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "ora": "^6.3.0",
+    "scp2": "^0.5.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
